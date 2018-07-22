@@ -15,6 +15,7 @@ class Todos extends Component{
     return(
       <div className="Todos">
         <h3> Todos Projects</h3>
+        <h3> Showing ajax request projects</h3>
           {todoItems}
       </div>
     );

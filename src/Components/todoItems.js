@@ -5,7 +5,7 @@ class TodoItems extends Component{
     console.log(this.props.todo.title);
     return(
         <li>
-          <strong>{this.props.todo.id}</strong>: {this.props.todo.title}
+          <strong>{this.props.todo.id}</strong>:: {this.props.todo.title}
         </li>
     );
   };
